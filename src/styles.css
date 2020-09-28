@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #40514e;
+  background-color: rgb(241, 240, 237);
+}
+
+h1 {
+  font-size: 4rem;
+  color: #66bfbf;
+  margin-top: 50;
+  font-family: "Sacramento", cursive;
+}
+h2 {
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  color: #66bfbf;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+hr {
+  border: dotted #c9ecec 6px;
+  border-bottom: none;
+  width: 45%;
+}
+
+a {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #eaf6f6;
+}
+.copyright {
+  color: #11999e;
+  font-size: 0, 45rem;
+  padding: 80px 0;
+}
+
+.top {
+  background-color: rgb(241, 240, 237);
+  position: relative;
+  padding: 50px 0 20px;
+}
+
+.middle-container {
+  background-color: rgb(241, 240, 237);
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: rgb(179, 170, 144);
+  padding: 50px 0 20px;
+}
+.skill-row1 {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row2 {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row3 {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.dj-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.electricguitar-img {
+  width: 25%;
+  border-radius: 5%;
+  float: left;
+}
+
+.edac-img {
+  border-radius: 50%;
+  width: 25%;
+}
+
+.mountain-img {
+  width: 20%;
+}
+
+.favicon2-img {
+  width: 10%;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.drum-img {
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 80px;
+  bottom: 200px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 150px;
+  top: 100px;
+}
+
+.btn {
+  box-shadow: inset 0px 0px 14px -3px #f2fadc;
+  background: linear-gradient(to bottom, #dbe6c4 5%, #9ba892 100%);
+  background-color: #dbe6c4;
+  border-radius: 6px;
+  border: 1px solid #b2b8ad;
+  display: inline-block;
+  cursor: pointer;
+  color: #757d6f;
+  font-family: Georgia;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ced9bf;
+}
+.btn:hover {
+  background: linear-gradient(to bottom, #9ba892 5%, #dbe6c4 100%);
+  background-color: #9ba892;
+}
+.btn:active {
+  position: relative;
+  top: 1px;
+}
